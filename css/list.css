@@ -1,0 +1,25 @@
+body{
+    position: relative;
+}
+
+div.container-md{
+    margin-top: 50px;
+    margin-left: 25%;
+    width: 500px;
+}
+
+div.card-body.info, div.card-body.info2{
+    display: inline-block;
+}
+div.mb-6.pagination{
+    margin-top: 15px;
+    margin-left: 25%;
+}
+
+div.btn{
+    display: inline-flex;
+}
+
+button.btn.btn-danger{
+    margin-left: 10px;
+}

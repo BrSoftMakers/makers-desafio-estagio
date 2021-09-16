@@ -1,0 +1,14 @@
+body{
+    position: relative;
+}
+
+div.container-fluid.form{
+    margin-top: 50px;
+    width: 500px;
+}
+
+button.btn.btn-warning{
+    margin-top: 15px;
+    margin-left: 150px;
+    width: 200px;
+}

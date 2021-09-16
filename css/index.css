@@ -1,0 +1,27 @@
+body{
+    position: relative;
+}
+
+div.container-fluid.info{
+    margin-top: 30px;
+    top: 50px;
+}
+
+div.container-fluid.type{
+    margin-top: 50px;
+}
+
+div.container-fluid.model{
+    margin-top: 30px;
+    top: 50px;
+}
+
+img.d-block.w-100{
+    position: relative;
+    height: 400px;
+    width: 100%;
+}
+
+h5.card-title{
+    margin-left: 20%;
+}
