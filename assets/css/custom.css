@@ -1,0 +1,13 @@
+.painel {
+    width: 100%;
+    height: 300px;
+    background-color: #121212;
+}
+
+@media screen and (max-width: 800px) {
+    .painel {
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+    }
+}
