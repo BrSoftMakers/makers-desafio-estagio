@@ -2,11 +2,11 @@
 
 ## Passo a passo para executar a aplicação
 
-##Requerimentos
+## Requerimentos
 
 MySQL, PHP e Apache instalados.
 
-##Passos:
+## Passos:
 
 **1º**: Copiar/mover a pasta 'Desafio' para dentro da pasta 'htdocs' do XAMPP. No Linux, caso use o LAMPP, o caminho é /var/www/html/
 
