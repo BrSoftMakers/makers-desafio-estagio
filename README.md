@@ -1,19 +1,32 @@
- ![SoftMakers](https://www.softmakers.com.br/assets/img/logotipo14xxhdpi.png)
-
 # Desafio - Desenvolvedor Fullstack - Estágio Makers
-Seja bem-vindo! Este desafio foi projetado para avaliar a sua capacidade técnica como candidato ao cargo proposto.
 
-## Instruções
-- Faça um fork deste repositório;
-- O conjunto mínimo de tecnologias a serem utilizadas são: HTML, CSS e JavaScript no front-end e alguma das tecnologias back-end informadas na proposta desse desafio;
-- Crie um passo a passo de como rodar a sua aplicação;
-- Após finalizar, submeta um pull request com um comentário informando o seu e-mail de contato e aguarde nossa avaliação.
+## Passo a passo para executar a aplicação
 
-## Proposta
-Você deverá desenvolver um projeto utilizando PHP com a finalidade de que seja possível listar, visualizar, criar, editar e excluir carros de uma locadora de automóvel.
-> **Observações:**
-> - Você pode utilizar a estratégia que considerar pertinente para armazenar os registros de sua aplicação;
-> - Cada carro precisa ter um identificador único, modelo, marca, tipo(hatch, sedan e SUV) e status (alugado ou disponível); 
+##Requerimentos
 
-## Diferenciais
-Serão considerados diferenciais o uso de qualquer tipo de framework utilizados no front-end (utilizamos ReactJS por aqui) ou no back-end da aplicação.
+MySQL, PHP e Apache instalados.
+
+##Passos:
+
+**1º**: Copiar/mover a pasta 'Desafio' para dentro da pasta 'htdocs' do XAMPP. No Linux, caso use o LAMPP, o caminho é /var/www/html/
+
+**2º**: Criar a base de dados 'locadora_de_veiculos' com a tabela 'veiculo'. Segue o script em SQL:
+
+```
+CREATE DATABASE  IF NOT EXISTS `locadora_de_veiculos`;
+USE `locadora_de_veiculos`;
+
+DROP TABLE IF EXISTS `veiculo`;
+
+CREATE TABLE `veiculo` (
+  `idveiculo` int NOT NULL AUTO_INCREMENT,
+  `modelo` varchar(100) DEFAULT NULL,
+  `marca` varchar(100) DEFAULT NULL,
+  `tipo` varchar(45) DEFAULT NULL,
+  `status` varchar(45) CHARACTER SET utf8mb4 DEFAULT NULL,
+  PRIMARY KEY (`idveiculo`)
+) DEFAULT CHARSET=utf8mb4;
+
+```
+
+**3º**: No navegador, digitar localhost/Desafio ou 127.0.0.1/Desafio para executar a aplicação.
