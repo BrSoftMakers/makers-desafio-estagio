@@ -28,5 +28,4 @@ CREATE TABLE `veiculo` (
 ) DEFAULT CHARSET=utf8mb4;
 
 ```
-
 **3º**: No navegador, digitar localhost/Desafio ou 127.0.0.1/Desafio para executar a aplicação.
