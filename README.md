@@ -26,6 +26,5 @@ CREATE TABLE `veiculo` (
   `status` varchar(45) CHARACTER SET utf8mb4 DEFAULT NULL,
   PRIMARY KEY (`idveiculo`)
 ) DEFAULT CHARSET=utf8mb4;
-
 ```
-**3º**: No navegador, digitar localhost/Desafio ou 127.0.0.1/Desafio para executar a aplicação.
+**3º**: No navegador, digitar localhost/nome-da-pasta ou 127.0.0.1/nome-da-pasta para executar a aplicação.
