@@ -25,4 +25,3 @@ Abaixo, seguem links sobre os tópicos mencionados anteriormente:
 A partir da criação do Banco de Dados no MySQL e a configuração a partir do .env neste arquivo (nesta pasta segue um exemplo em .env.example), você podera iniciar a aplicação no seu navegador a partir do URL.
 O site será bem intuitivo e com ele você poderá cadastrar, editar , excluir, visualizar e listar carros da locadora.
                                                                        
-
