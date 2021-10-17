@@ -21,7 +21,14 @@ Abaixo, seguem links sobre os tópicos mencionados anteriormente:
 * [Site do Laravel](https://laravel.com)
 
 <h2>Funcionamento do Site</h2>
-                                                                     
-A partir da criação do Banco de Dados no MySQL e a configuração a partir do .env neste arquivo (nesta pasta segue um exemplo em .env.example), você podera iniciar a aplicação no seu navegador a partir do URL.
-O site será bem intuitivo e com ele você poderá cadastrar, editar , excluir, visualizar e listar carros da locadora.
+
+* Clonar o projeto.
+* Entrar na pasta Desafio.
+* Rodar o composer update e o composer install.
+* Renomear o arquivo .env.example para .env e preencher com as informações do Banco de Dados que deverá ser gerado no MySQL.
+* Rodar o comando php artisan key:generate.
+* Rodar o comando php artisan migrate.
+* E para executar o sistema, use o comando php artisan serve.
+
                                                                        
+
