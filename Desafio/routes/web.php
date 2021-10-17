@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+route::get('/', 'CarrosController@home');
 Route::group(['prefix' => 'carros'], function (){
     route::get('/', 'CarrosController@index');
     route::get('/novoCar', 'CarrosController@novoCar');

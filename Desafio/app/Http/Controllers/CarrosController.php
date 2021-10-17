@@ -55,4 +55,8 @@ class CarrosController extends Controller
 
         return redirect("/carros")->with("message", "VRUM VRUM excluido com sucesso!");
     }
+    public function home()
+    {
+        return redirect("/carros");
+    }
 }
