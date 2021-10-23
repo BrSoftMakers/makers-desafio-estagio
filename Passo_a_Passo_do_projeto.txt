@@ -1,0 +1,12 @@
+O projeto foi realizado para listar, visualizar, criar, editar e excluir carros para uma locadora de automóvel. O framework utilizado para realizar o projeto foi o Laravel, então é necessário a instalação de alguns componente para executar a aplicação.
+Em primeira partida pode-se instalar o WampServer para instalar os softwares PHP 8.0+, MySQL. Pois, a base do campo do dados foi utilazado o MySQL, que é pre-definido pelo próprio Laravel.
+Em segundo momento, pode-se utilizar da IDE de sua preferência, foi utilizado o Visual Studio Code na criação. É bom ter o composer caso seja necessário para criação de alguma partição necessária.
+Em terceiro ponto, executar a aplicação utilizando o comando "php artisan serve" para criar um localserve e manusear o dispositivo. 
+
+
+O site em sua primeira tela, tem uma logo simples(Imagem meramente ilustrativa) para chamar atenção do cliente da proposta do site. Que é o aluguel de automóveis.
+Tem uma Navbar para auxiliar nas transições(ou rotas como é utilizado pelo laravel).
+
+Em segunda aba, é localizado a lista com os carros que estão ligados na base do banco de dados. E o sistema já é otimizado com o banco de dados para realizar os procedimentos no qual foi exigido.
+No botão verde, cadastra um veiculo com suas especificações(Modelo,Tipo, Marca e ate mesmo o status que ele se encontra). Ao gerar o veiculo ele fica com seu identificador unico(ID) demonstrado no sistema e já é inserido na lista.
+Todos os demais botões Deletar, Editar e Visualizar já são automizados para interagir com a lista podendo fazer qualquer alteração que julgar pertinente.  
