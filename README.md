@@ -18,9 +18,9 @@ Você deverá desenvolver um projeto utilizando PHP com a finalidade de que seja
 ## Diferenciais
 Serão considerados diferenciais:
 
--utilizar Jquery;
--utilizar Bootstrap ou Material UI;
--utilização de algum framework ou biblioteca no frontend ou backend (aqui utilizamos Reactjs , Laravel, Nodejs, Nextjs);
--noções de Docker;
+-utilizar Jquery;</br>
+-utilizar Bootstrap ou Material UI;</br>
+-utilização de algum framework ou biblioteca no frontend ou backend (aqui utilizamos Reactjs , Laravel, Nodejs, Nextjs);</br>
+-noções de Docker;</br>
 -noções de React-native;
 
