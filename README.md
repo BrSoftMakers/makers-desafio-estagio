@@ -16,4 +16,11 @@ Você deverá desenvolver um projeto utilizando PHP com a finalidade de que seja
 > - Cada carro precisa ter um identificador único, modelo, marca, tipo(hatch, sedan e SUV) e status (alugado ou disponível); 
 
 ## Diferenciais
-Serão considerados diferenciais o uso de qualquer tipo de framework utilizados no front-end (utilizamos ReactJS por aqui) ou no back-end da aplicação.
+Serão considerados diferenciais:
+
+-utilizar Jquery;
+-utilizar Bootstrap ou Material UI;
+-utilização de algum framework ou biblioteca no frontend ou backend (aqui utilizamos Reactjs , Laravel, Nodejs, Nextjs);
+-noções de Docker;
+-noções de React-native;
+
